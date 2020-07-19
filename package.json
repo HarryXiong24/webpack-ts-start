@@ -1,7 +1,7 @@
 {
-  "name": "mini-ts-vue",
+  "name": "typescript-webpack-start",
   "version": "1.0.0",
-  "description": "A mini-vue framework developed by Typescript.",
+  "description": "A template for quickly developing projects with Typescript and Webpack.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
