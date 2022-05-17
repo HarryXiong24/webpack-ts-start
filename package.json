@@ -1,8 +1,11 @@
 {
-  "name": "webpack",
+  "name": "typescript-webpack-start",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
+  "description": "A template for quickly developing projects with Typescript and Webpack.",
+  "keywords": [],
+  "author": "Harry Xiong",
+  "license": "MIT",
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack server",
     "build": "cross-env NODE_ENV=production webpack",
@@ -22,9 +25,6 @@
     "log": "conventional-changelog -p angular -i CHANGELOG.md -s",
     "prepare": "husky install"
   },
-  "keywords": [],
-  "author": "",
-  "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.17.10",
     "@babel/preset-env": "^7.17.10",
