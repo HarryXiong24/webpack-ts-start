@@ -30,6 +30,7 @@ module.exports = {
     // 5.x 版本写法
     static: path.resolve('./public'),
   },
+  // 设置别名
   resolve: {
     extensions: ['.ts', '.tsx', '.js', '.jsx'],
     alias: {
@@ -48,7 +49,9 @@ module.exports = {
       },
       hash: true, // 给打包后在模板中引入的文件名生成 hash 戳，防止缓存
     }),
+    // 每次打包前清除上一次的结果
     new CleanWebpackPlugin(),
+    // 打包过程中加进度条
     new ProgressBarPlugin(),
   ],
   module: {

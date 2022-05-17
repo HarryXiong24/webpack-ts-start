@@ -1,3 +1,3 @@
-import demo from '../src/index';
+import demo from '@/index';
 
 demo();

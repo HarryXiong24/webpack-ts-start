@@ -1,4 +1,4 @@
-const prettierConfig = require('./prettier.config');
+const prettierConfig = require('./.prettierrc');
 module.exports = {
   extends: [
     // 标准配置

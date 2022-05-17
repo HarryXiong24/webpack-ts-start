@@ -1,4 +1,4 @@
-const prettierConfig = require('./prettier.config');
+const prettierConfig = require('./.prettierrc');
 const __DEV__ = process.env.NODE_ENV !== 'production';
 
 module.exports = {
@@ -23,6 +23,7 @@ module.exports = {
     'plugin:import/typescript',
     'plugin:jsx-a11y/recommended',
     // plugin:prettier/recommended 需要为最后一个扩展
+    // 避免与 prettier 冲突
     'plugin:prettier/recommended',
   ],
   // rules 可根据条件自行配置
