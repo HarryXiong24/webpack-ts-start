@@ -1,5 +1,5 @@
 {
-  "name": "typescript-webpack-start",
+  "name": "webpack-ts-start",
   "version": "1.0.0",
   "main": "index.js",
   "description": "A template for quickly developing projects with Typescript and Webpack.",

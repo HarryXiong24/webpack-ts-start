@@ -1,4 +1,4 @@
-# Typescript-Webpack-Start
+# webpack-ts-start
 
 ## Description
 
@@ -8,8 +8,8 @@ A template for quickly developing projects with Typescript and Webpack.
 
 ```bash
 # Clone it from Github.
-$ git clone https://github.com/HarryXiong24/typescript-webpack-start.git
-$ cd typescript-webpack-start
+$ git clone https://github.com/HarryXiong24/webpack-ts-start.git
+$ cd webpack-ts-start
 ```
 
 ```bash
